@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0a0504">
+<title>輝國誌 · 휘국</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Serif+KR:wght@600;900&display=swap" rel="stylesheet">
+<script>document.documentElement.className+=' js'</script>
+<noscript><style>.pane{display:block!important;margin-bottom:16px}.pane[data-id="idle"],.spot,.tabs,.cta{display:none!important}#gate{display:none!important}#webtoon[hidden]{display:block!important}</style></noscript>
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+[hidden]{display:none!important}
+:root{
+  --bg:#060303;--text:#bdac8f;--dim:#8d7d66;--faint:#5e4d3d;
+  --gold:#cfa65c;--gold2:#8f6b3a;--gold3:#4d3520;
+  --blood:#8f1d1a;--blood2:#c8443b;--blood3:#3a0f0e;
+  --band:13px;
+  --dan-h:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='48' height='16' viewBox='0 0 48 16'%3E %3Crect width='48' height='16' fill='%23173a31'/%3E %3Crect width='48' height='2' fill='%238f1d1a'/%3E%3Crect y='14' width='48' height='2' fill='%238f1d1a'/%3E %3Crect y='2' width='48' height='1' fill='%23d9cdb4' fill-opacity='.75'/%3E%3Crect y='13' width='48' height='1' fill='%23d9cdb4' fill-opacity='.75'/%3E %3Cpath d='M0 8 12 3.5 24 8 12 12.5Z' fill='%238f1d1a'/%3E%3Cpath d='M5 8 12 5.4 19 8 12 10.6Z' fill='%23cfa65c'/%3E %3Cpath d='M24 8 36 3.5 48 8 36 12.5Z' fill='%2323405e'/%3E%3Cpath d='M29 8 36 5.4 43 8 36 10.6Z' fill='%23d9cdb4'/%3E %3Cpath d='M0 8 12 3.5 24 8 12 12.5Z M24 8 36 3.5 48 8 36 12.5Z' fill='none' stroke='%230a0504' stroke-opacity='.65' stroke-width='.7'/%3E %3C/svg%3E");
+  --dan-v:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='48' viewBox='0 0 16 48'%3E %3Crect width='16' height='48' fill='%23173a31'/%3E %3Crect width='2' height='48' fill='%238f1d1a'/%3E%3Crect x='14' width='2' height='48' fill='%238f1d1a'/%3E %3Crect x='2' width='1' height='48' fill='%23d9cdb4' fill-opacity='.75'/%3E%3Crect x='13' width='1' height='48' fill='%23d9cdb4' fill-opacity='.75'/%3E %3Cpath d='M8 0 3.5 12 8 24 12.5 12Z' fill='%238f1d1a'/%3E%3Cpath d='M8 5 5.4 12 8 19 10.6 12Z' fill='%23cfa65c'/%3E %3Cpath d='M8 24 3.5 36 8 48 12.5 36Z' fill='%2323405e'/%3E%3Cpath d='M8 29 5.4 36 8 43 10.6 36Z' fill='%23d9cdb4'/%3E %3Cpath d='M8 0 3.5 12 8 24 12.5 12Z M8 24 3.5 36 8 48 12.5 36Z' fill='none' stroke='%230a0504' stroke-opacity='.65' stroke-width='.7'/%3E %3C/svg%3E");
+  --cho:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='36' viewBox='0 0 96 36'%3E%3Cg transform='translate(1.1 1.3)' stroke='%23000' stroke-opacity='0.9' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M0 18C16 3 32 3 48 18S80 33 96 18' stroke-width='2.4' fill='none' fill-opacity='0.9'/%3E%3Cpath d='M24 9.4C24 2 34 1 34 7.5 34 12 28.5 12 28.5 8.6' stroke-width='1.9' fill='none' fill-opacity='0.9'/%3E%3Cpath d='M72 26.6C72 34 62 35 62 28.5 62 24 67.5 24 67.5 27.4' stroke-width='1.9' fill='none' fill-opacity='0.9'/%3E%3Cpath d='M48 18C50 8 60 7 63 11 59 16 53 18 48 18Z' stroke-width='1.5' fill='%23000' fill-opacity='0.9'/%3E%3Cpath d='M48 18C46 28 36 29 33 25 37 20 43 18 48 18Z' stroke-width='1.5' fill='%23000' fill-opacity='0.9'/%3E%3Cpath d='M12 12.2C12 7 18 6.5 19 10.4 15 11 13.5 12 12 12.2Z' stroke-width='1.2' fill='%23000' fill-opacity='0.9'/%3E%3Cpath d='M84 23.8C84 29 78 29.5 77 25.6 81 25 82.5 24 84 23.8Z' stroke-width='1.2' fill='%23000' fill-opacity='0.9'/%3E%3C/g%3E%3Cg transform='translate(0 0)' stroke='%239c7236' stroke-opacity='1' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M0 18C16 3 32 3 48 18S80 33 96 18' stroke-width='2.4' fill='none' fill-opacity='0.55'/%3E%3Cpath d='M24 9.4C24 2 34 1 34 7.5 34 12 28.5 12 28.5 8.6' stroke-width='1.9' fill='none' fill-opacity='0.55'/%3E%3Cpath d='M72 26.6C72 34 62 35 62 28.5 62 24 67.5 24 67.5 27.4' stroke-width='1.9' fill='none' fill-opacity='0.55'/%3E%3Cpath d='M48 18C50 8 60 7 63 11 59 16 53 18 48 18Z' stroke-width='1.5' fill='%235a3a1c' fill-opacity='0.55'/%3E%3Cpath d='M48 18C46 28 36 29 33 25 37 20 43 18 48 18Z' stroke-width='1.5' fill='%235a3a1c' fill-opacity='0.55'/%3E%3Cpath d='M12 12.2C12 7 18 6.5 19 10.4 15 11 13.5 12 12 12.2Z' stroke-width='1.2' fill='%235a3a1c' fill-opacity='0.55'/%3E%3Cpath d='M84 23.8C84 29 78 29.5 77 25.6 81 25 82.5 24 84 23.8Z' stroke-width='1.2' fill='%235a3a1c' fill-opacity='0.55'/%3E%3C/g%3E%3Cg transform='translate(-0.6 -0.6)' stroke='%23f0cf8a' stroke-opacity='0.28' fill='none' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M0 18C16 3 32 3 48 18S80 33 96 18' stroke-width='2.4' fill='none' fill-opacity='0.9'/%3E%3Cpath d='M24 9.4C24 2 34 1 34 7.5 34 12 28.5 12 28.5 8.6' stroke-width='1.9' fill='none' fill-opacity='0.9'/%3E%3Cpath d='M72 26.6C72 34 62 35 62 28.5 62 24 67.5 24 67.5 27.4' stroke-width='1.9' fill='none' fill-opacity='0.9'/%3E%3Cpath d='M48 18C50 8 60 7 63 11 59 16 53 18 48 18Z' stroke-width='1.5' fill='none' fill-opacity='0.9'/%3E%3Cpath d='M48 18C46 28 36 29 33 25 37 20 43 18 48 18Z' stroke-width='1.5' fill='none' fill-opacity='0.9'/%3E%3Cpath d='M12 12.2C12 7 18 6.5 19 10.4 15 11 13.5 12 12 12.2Z' stroke-width='1.2' fill='none' fill-opacity='0.9'/%3E%3Cpath d='M84 23.8C84 29 78 29.5 77 25.6 81 25 82.5 24 84 23.8Z' stroke-width='1.2' fill='none' fill-opacity='0.9'/%3E%3C/g%3E%3C/svg%3E");
+  --raf:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='44' height='44' viewBox='0 0 44 44'%3E %3Crect width='44' height='44' fill='%230d0705'/%3E %3Ccircle cx='22' cy='22' r='19' fill='%23173a31' stroke='%23000' stroke-width='1.6'/%3E %3Ccircle cx='22' cy='22' r='14.2' fill='none' stroke='%238f1d1a' stroke-width='3'/%3E %3Ccircle cx='22' cy='22' r='10' fill='%23d9cdb4' fill-opacity='.92'/%3E %3Cpath d='M22 13.5 25.2 19.6 31.2 22 25.2 24.4 22 30.5 18.8 24.4 12.8 22 18.8 19.6Z' fill='%238f1d1a'/%3E %3Ccircle cx='22' cy='22' r='2.8' fill='%23cfa65c' stroke='%23000' stroke-opacity='.5' stroke-width='.6'/%3E %3Ccircle cx='22' cy='22' r='16.6' fill='none' stroke='%23cfa65c' stroke-opacity='.55' stroke-width='.7'/%3E %3C/svg%3E");
+  --wan:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='34' height='34' viewBox='0 0 34 34'%3E %3Cpath d='M17 4V30M4 17H30M17 4H28M30 17V28M17 30H6M4 17V6' fill='none' stroke='%23120a07' stroke-width='2.4' stroke-linecap='square'/%3E %3Cpath d='M17 4V30M4 17H30M17 4H28M30 17V28M17 30H6M4 17V6' fill='none' stroke='%232a1810' stroke-width='.7' stroke-opacity='.55' transform='translate(-.7 -.7)'/%3E %3C/svg%3E");
+  --wood:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='420' height='280'%3E %3Cfilter id='g' x='0' y='0' width='100%25' height='100%25'%3E %3CfeTurbulence type='fractalNoise' baseFrequency='0.005 0.16' numOctaves='3' seed='11' stitchTiles='stitch'/%3E %3CfeColorMatrix values='0 0 0 0 .42 0 0 0 0 .23 0 0 0 0 .13 0 2.4 0 0 -.82'/%3E %3C/filter%3E %3Crect width='100%25' height='100%25' filter='url(%23g)' opacity='.4'/%3E%3C/svg%3E");
+  --serif:'Gowun Batang','Nanum Myeongjo','Noto Serif KR','Apple Batang','Batang',serif;
+  --display:'Nanum Myeongjo','Noto Serif KR','Apple Myungjo',serif;
+  --hanja:'Noto Serif KR','Nanum Myeongjo',serif;
+}
+@media(max-width:560px){:root{--band:10px}}
+html{background:var(--bg);-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{
+  margin:0;min-height:100vh;color:var(--text);font-family:var(--serif);font-size:15px;line-height:1.95;
+  word-break:keep-all;overflow-wrap:break-word;
+  background:
+    radial-gradient(120% 50% at 50% 0%,rgba(110,22,18,.26),transparent 62%),
+    radial-gradient(120% 40% at 50% 100%,rgba(80,14,12,.30),transparent 60%),
+    var(--wan),var(--bg);
+}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;background:radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.55) 100%)}
+button{font:inherit;color:inherit}
+a{color:inherit}
+
+/* ───── 공통 부재 ───── */
+.wood{background-color:#140b08;background-image:var(--wood),linear-gradient(180deg,#1d100b,#0e0706)}
+.dan{height:var(--band);background:var(--dan-h) repeat-x 0 0/calc(var(--band)*3) var(--band);box-shadow:0 1px 0 #000,0 -1px 0 #000}
+.cho{height:36px;background:var(--cho) repeat-x center/auto 36px}
+.cho.divider{max-width:520px;margin:38px auto 0;opacity:.95}
+.stud{position:absolute;width:13px;height:13px;border-radius:50%;z-index:6;pointer-events:none;
+  background:radial-gradient(circle at 35% 30%,#f4dea0,#b88a3e 42%,#3d2610 100%);box-shadow:0 0 0 1.5px #050202,0 2px 5px rgba(0,0,0,.8)}
+.stud.tl{top:9px;left:9px}.stud.tr{top:9px;right:9px}.stud.bl{bottom:9px;left:9px}.stud.br{bottom:9px;right:9px}
+.eyebrow{color:var(--gold2);font-size:11px;letter-spacing:.55em}
+.engrave{color:var(--gold);text-shadow:-1px -1px 0 rgba(0,0,0,.9),1px 1px 0 rgba(255,226,160,.26),0 0 16px rgba(160,30,20,.4)}
+
+/* ───── 머리: 처마 · 창방 · 현판 ───── */
+.top{position:relative;z-index:2}
+.rafters{height:44px;background:var(--raf) repeat-x 0 0/44px 44px;box-shadow:inset 0 -10px 12px rgba(0,0,0,.55)}
+.beam{position:relative}
+.beam.wood{box-shadow:0 12px 26px rgba(0,0,0,.75)}
+.beam .rose{display:none}
+@media(min-width:1020px){
+  .beam .rose{display:block;position:absolute;top:50%;width:62px;height:62px;margin-top:-31px;border-radius:50%;z-index:3;
+    background:repeating-radial-gradient(circle at 50% 50%,#d9b66a 0 2px,#2a160e 2px 5px,#8f1d1a 5px 7px,#140b08 7px 10px);
+    box-shadow:0 0 0 2px #050202,0 6px 14px rgba(0,0,0,.8)}
+  .beam .rose.l{left:16px}.beam .rose.r{right:16px}
+}
+.hang{padding:44px 16px 26px;text-align:center;background:radial-gradient(60% 110% at 50% 0%,rgba(110,22,18,.32),transparent 70%)}
+.plaque{position:relative;display:inline-block;padding:14px 48px 12px;border:3px solid #050202;
+  box-shadow:inset 0 0 0 2px var(--gold2),inset 0 0 0 5px #050202,inset 0 0 0 6px rgba(207,166,92,.4),0 16px 34px rgba(0,0,0,.85)}
+.plaque::before,.plaque::after{content:"";position:absolute;top:-40px;width:5px;height:40px;background:linear-gradient(#7a5530,#2a160e);box-shadow:0 0 0 1px #050202}
+.plaque::before{left:20%}.plaque::after{right:20%}
+.plaque .hj{display:block;font-family:var(--hanja);font-weight:900;font-size:clamp(30px,8.5vw,54px);line-height:1.25;letter-spacing:.35em;text-indent:.35em}
+.plaque .ko{display:block;margin-top:2px;font-size:12px;letter-spacing:.6em;text-indent:.6em;color:var(--gold2)}
+.plaque .pin{position:absolute;top:50%;width:11px;height:11px;margin-top:-5px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f4dea0,#b88a3e 45%,#3d2610);box-shadow:0 0 0 1.5px #050202}
+.plaque .pin.l{left:16px}.plaque .pin.r{right:16px}
+.warnline{margin:14px 0 0;color:var(--blood2);font-size:10px;letter-spacing:.9em;text-indent:.9em;opacity:.85}
+
+/* ───── 내비 ───── */
+.gnb{position:sticky;top:0;z-index:50;box-shadow:0 8px 18px rgba(0,0,0,.75)}
+.gnb.wood{background-image:linear-gradient(rgba(6,3,2,.58),rgba(6,3,2,.58)),var(--wood),linear-gradient(180deg,#1d100b,#0e0706)}
+.gnb .dan{height:7px}
+.gnb ul{list-style:none;margin:0;padding:4px 6px;display:flex;justify-content:center;align-items:center}
+.gnb li{display:flex;align-items:center}
+.gnb li+li::before{content:"◆";font-size:8px;color:var(--gold3);margin:0 2px}
+.gnb a{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:46px;padding:2px clamp(8px,3vw,22px);
+  text-decoration:none;color:var(--dim);font-size:14px;letter-spacing:.22em;text-indent:.22em;line-height:1.25;transition:color .2s}
+.gnb a small{font-size:9px;letter-spacing:.3em;text-indent:.3em;color:var(--gold2);transition:color .2s}
+.gnb a:hover,.gnb a:focus-visible{color:var(--gold);outline:none}
+.gnb a[aria-current="true"]{color:var(--gold);text-shadow:0 0 12px rgba(200,68,59,.6)}
+.gnb a[aria-current="true"] small{color:var(--gold2)}
+
+/* ───── 본문 컨테이너 ───── */
+.sheet{position:relative;z-index:1;max-width:980px;margin:0 auto;padding:36px 16px 20px}
+section,article{scroll-margin-top:66px}
+
+/* ───── 액자 (나무틀 + 단청 + 광두정) ───── */
+.frame{position:relative;padding:9px;border:2px solid #050202;box-shadow:0 22px 50px rgba(0,0,0,.75),inset 0 1px 0 rgba(255,220,160,.06)}
+.frame-in{position:relative;padding:var(--band);background-color:#0a0504;
+  background-image:var(--dan-h),var(--dan-h),var(--dan-v),var(--dan-v);
+  background-repeat:repeat-x,repeat-x,repeat-y,repeat-y;
+  background-position:0 0,0 100%,0 0,100% 0;
+  background-size:calc(var(--band)*3) var(--band),calc(var(--band)*3) var(--band),var(--band) calc(var(--band)*3),var(--band) calc(var(--band)*3)}
+.frame-in>img,.frame-in .stage-in>img{display:block;width:100%;height:auto;border:1px solid #000;box-shadow:0 0 0 1px rgba(207,166,92,.35);filter:saturate(.95) contrast(1.04) brightness(.96)}
+.k{position:absolute;width:26px;height:26px;border-radius:50%;z-index:5;pointer-events:none;
+  background:radial-gradient(circle at 35% 30%,#f4dea0,#b88a3e 42%,#3d2610 100%);box-shadow:0 0 0 2px #050202,0 3px 8px rgba(0,0,0,.85)}
+.k::after{content:"";position:absolute;inset:8px;border-radius:50%;background:radial-gradient(circle,#2a160e,#6b4a22);box-shadow:0 0 0 1px rgba(0,0,0,.6)}
+.k.tl{top:-5px;left:-5px}.k.tr{top:-5px;right:-5px}.k.bl{bottom:-5px;left:-5px}.k.br{bottom:-5px;right:-5px}
+
+/* ───── 표지(문) → 본편(웹툰) ───── */
+#story{max-width:760px;margin:0 auto}
+.gate{display:block;cursor:pointer;outline:none;transition:opacity .5s ease,transform .5s ease,filter .5s ease}
+.gate.leaving{opacity:0;transform:scale(1.035);filter:blur(3px);pointer-events:none}
+.gate:focus-visible .frame{outline:2px solid var(--gold);outline-offset:5px}
+.gate .frame{transition:box-shadow .3s}
+.gate:hover .frame{box-shadow:0 22px 50px rgba(0,0,0,.75),0 0 0 1px rgba(207,166,92,.4),0 0 44px rgba(200,68,59,.28)}
+.cta{position:relative;z-index:7;display:flex;align-items:center;gap:14px;width:fit-content;max-width:92%;margin:-18px auto 0;padding:10px 24px 10px 12px;border:2px solid #050202;
+  box-shadow:inset 0 0 0 1px var(--gold2),0 12px 24px rgba(0,0,0,.8)}
+.cta::before{content:"";position:absolute;left:50%;top:-14px;width:5px;height:14px;margin-left:-2px;background:linear-gradient(#7a5530,#2a160e)}
+.seal{display:grid;place-items:center;flex:none;width:46px;height:46px;border-radius:5px;transform:rotate(-4deg);
+  font-family:var(--hanja);font-weight:900;font-size:23px;line-height:1;color:#f0d9b5;
+  background:radial-gradient(circle at 35% 30%,#a62a24,#6b1210 70%);border:1px solid rgba(240,217,181,.35);animation:pulse 2.6s ease-in-out infinite}
+.cta-t b{display:block;font-weight:700;letter-spacing:.3em;font-size:14px;color:var(--gold)}
+.cta-t small{display:block;font-size:11.5px;letter-spacing:.12em;color:var(--dim);line-height:1.6}
+@keyframes pulse{0%,100%{box-shadow:0 0 10px rgba(143,29,26,.5)}50%{box-shadow:0 0 0 7px rgba(200,68,59,.08),0 0 28px rgba(200,68,59,.85)}}
+
+.webtoon.enter{animation:rise .8s ease both}
+.webtoon .frame-in{padding-top:calc(var(--band) + 2px);padding-bottom:calc(var(--band) + 2px)}
+.wt-head{padding:6px 0 12px;text-align:center;font-family:var(--hanja);font-weight:900;font-size:13px;letter-spacing:.8em;text-indent:.8em;color:var(--gold2)}
+.wt-foot{padding:22px 8px 8px;text-align:center}
+.btn{appearance:none;cursor:pointer;min-height:44px;padding:10px 24px;letter-spacing:.3em;text-indent:.3em;font-size:13px;font-family:var(--serif);
+  color:var(--gold);background:rgba(0,0,0,.35);border:1px solid var(--gold2);transition:background .2s}
+.btn:hover,.btn:focus-visible{background:rgba(207,166,92,.14);outline:none}
+.prog{position:fixed;left:0;top:0;height:3px;width:0;z-index:70;opacity:0;transition:opacity .3s;background:linear-gradient(90deg,var(--blood),var(--gold))}
+body.reading .prog{opacity:1}
+
+/* ───── 세 번째 이미지 ───── */
+.poster{max-width:760px;margin:46px auto 0}
+
+/* ───── 문짝: 휘국 · 영물 ───── */
+.leaves{display:grid;gap:22px;margin-top:44px}
+@media(min-width:880px){.leaves{grid-template-columns:1.18fr 1fr}}
+.leaf{position:relative;padding:36px 26px 28px;border:2px solid #050202;overflow:hidden;
+  box-shadow:inset 0 0 0 1px rgba(207,166,92,.25),inset 0 0 50px rgba(0,0,0,.75),0 16px 36px rgba(0,0,0,.7)}
+.leaf::before{content:"";position:absolute;inset:8px;border:1px solid rgba(207,166,92,.3);pointer-events:none}
+.leaf.wood{background-image:linear-gradient(rgba(8,4,3,.74),rgba(8,4,3,.74)),var(--wood),linear-gradient(180deg,#1d100b,#0e0706)}
+.leaf-hwi{display:grid;grid-template-columns:auto 1fr;gap:0 20px;align-content:start}
+.juryeon{position:relative;align-self:start;writing-mode:vertical-rl;text-orientation:upright;white-space:nowrap;
+  font-family:var(--hanja);font-weight:700;font-size:clamp(30px,8vw,44px);line-height:1;letter-spacing:.3em;
+  height:calc(2.9em + 30px);width:calc(1.1em + 18px);padding:15px 9px;text-align:start;
+  color:var(--gold);background-color:#0b0605;background-image:linear-gradient(rgba(6,3,2,.78),rgba(6,3,2,.78)),var(--wood);
+  border:2px solid #050202;box-shadow:inset 0 0 0 2px var(--gold2),inset 0 0 0 4px #050202,0 8px 20px rgba(0,0,0,.7);
+  text-shadow:-1px -1px 0 rgba(0,0,0,.9),1px 1px 0 rgba(255,226,160,.22)}
+.juryeon::before,.juryeon::after{content:"";position:absolute;left:50%;width:9px;height:9px;margin-left:-4px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f4dea0,#b88a3e 45%,#3d2610);box-shadow:0 0 0 1px #050202}
+.juryeon::before{top:-6px}.juryeon::after{bottom:-6px}
+.leaf h2{margin:4px 0 2px;font-family:var(--display);font-weight:800;font-size:clamp(28px,7vw,36px);letter-spacing:.18em}
+.leaf h2 small{font-size:.5em;font-weight:400;letter-spacing:.2em;margin-left:.5em;color:var(--gold2);text-shadow:none}
+.sub{margin:0 0 6px;font-size:12px;letter-spacing:.12em;color:var(--dim)}
+.leaf p{margin:0 0 12px;font-size:14.5px;color:#a8977c}
+.leaf .cho{height:28px;background-size:auto 28px;margin:2px 0 8px;opacity:.9}
+.whisper{grid-column:1/-1;margin:10px 0 0!important;padding-top:16px;border-top:1px dashed var(--gold3);text-align:center;
+  font-size:12.5px!important;letter-spacing:.08em;color:#8c2d27!important;text-shadow:0 0 10px rgba(200,68,59,.45);animation:flicker 6s infinite}
+@keyframes flicker{0%,100%{opacity:1}46%{opacity:1}48%{opacity:.45}50%{opacity:1}74%{opacity:.8}76%{opacity:.4}78%{opacity:1}}
+
+.leaf.leaf-red{text-align:center;background-color:#2a0907;background-image:linear-gradient(rgba(18,4,3,.5),rgba(18,4,3,.5)),var(--wood),radial-gradient(90% 70% at 50% 0%,rgba(150,26,22,.55),rgba(30,8,7,1) 75%)}
+.leaf-red::after{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(180deg,var(--blood2),var(--blood3));z-index:2}
+.leaf-red{display:flex;flex-direction:column;justify-content:center}
+.leaf-red .mark{position:absolute;left:50%;top:50%;transform:translate(-50%,-46%);font-family:var(--hanja);font-weight:900;font-size:230px;line-height:1;color:rgba(160,30,24,.12);pointer-events:none;user-select:none}
+.eyes{display:flex;justify-content:center;gap:34px;height:24px;margin:0 0 18px}
+.eyes span{position:relative;width:46px;height:18px;border-radius:50%;--r:7deg;
+  background:radial-gradient(ellipse at center,#ffd27a 0%,#e0902c 45%,#6b2a0c 80%,transparent 100%);
+  filter:drop-shadow(0 0 8px rgba(255,160,40,.55));animation:blink 7s infinite;transform:rotate(var(--r))}
+.eyes span:last-child{--r:-7deg}
+.eyes span::after{content:"";position:absolute;left:50%;top:6%;bottom:6%;width:4px;margin-left:-2px;border-radius:50%;background:#120400}
+@keyframes blink{0%,91%,100%{transform:rotate(var(--r)) scaleY(1)}94%{transform:rotate(var(--r)) scaleY(.05)}}
+.leaf-red h3{position:relative;margin:0 0 12px;font-family:var(--display);font-weight:700;font-size:20px;letter-spacing:.3em;text-indent:.3em;color:#e07a70;text-shadow:-1px -1px 0 rgba(0,0,0,.9),0 0 12px rgba(200,68,59,.7)}
+.leaf-red h3 small{font-size:.72em;font-weight:400;color:#b05a52;letter-spacing:.2em}
+.leaf-red p{position:relative;color:#bba88f}
+.leaf-red .ital{font-size:13px;font-style:italic;color:#8a7560;margin:0}
+
+/* ───── 복호궁 ───── */
+.palace{margin-top:54px;text-align:center}
+.plaque-wide{padding:12px 54px 10px}
+.plaque-wide h2{margin:0;font-family:var(--display);font-weight:800;font-size:clamp(30px,8vw,42px);letter-spacing:.34em;text-indent:.34em}
+.plaque-wide .hj{font-size:12px;letter-spacing:.7em;text-indent:.7em;color:var(--gold2);font-weight:600;line-height:1.6}
+.hint{margin:26px 0 20px;font-size:12.5px;letter-spacing:.12em;color:var(--dim)}
+.palace-grid{display:grid;gap:22px;text-align:left}
+@media(min-width:900px){.palace-grid{grid-template-columns:minmax(0,1.45fr) minmax(0,1fr);align-items:start}.info{position:sticky;top:76px}}
+.stage-in{position:relative}
+.spot{position:absolute;z-index:5;left:var(--x);top:var(--y);width:var(--w);height:var(--h);margin:0;padding:0;cursor:pointer;
+  border:1px solid rgba(207,166,92,.8);border-radius:3px;background:rgba(207,166,92,.06);animation:glow 2.8s ease-in-out infinite}
+.spot:hover,.spot:focus-visible{background:rgba(207,166,92,.22);outline:none}
+.spot.blood{border-color:rgba(200,68,59,.9);background:rgba(200,68,59,.08)}
+.spot.on{animation:none;border-color:#ffe2a0;background:rgba(255,226,160,.2);box-shadow:0 0 0 2px rgba(255,226,160,.5),0 0 22px rgba(255,200,110,.7)}
+.spot.blood.on{border-color:#ff8a80;background:rgba(255,120,100,.2);box-shadow:0 0 0 2px rgba(255,138,128,.5),0 0 22px rgba(255,90,70,.7)}
+@keyframes glow{0%,100%{box-shadow:0 0 0 rgba(207,166,92,0)}50%{box-shadow:0 0 14px rgba(207,166,92,.65)}}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* 문패 */
+.tabs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+@media(min-width:900px){.tabs{grid-template-columns:repeat(3,1fr)}}
+.tab{--cut:11px;position:relative;min-height:48px;padding:10px 4px;cursor:pointer;border:0;font-weight:700;font-size:14px;letter-spacing:.2em;text-indent:.2em;
+  color:var(--gold);background:var(--gold2);clip-path:polygon(0 var(--cut),var(--cut) 0,calc(100% - var(--cut)) 0,100% var(--cut),100% 100%,0 100%);transition:color .2s}
+.tab::before{content:"";position:absolute;inset:2px;z-index:0;background:linear-gradient(#1c100b,#0e0706);
+  clip-path:polygon(0 calc(var(--cut) - 1px),calc(var(--cut) - 1px) 0,calc(100% - var(--cut) + 1px) 0,100% calc(var(--cut) - 1px),100% 100%,0 100%)}
+.tab::after{content:"";position:absolute;left:50%;top:7px;width:6px;height:6px;margin-left:-3px;border-radius:50%;background:#000;box-shadow:0 0 0 1px rgba(207,166,92,.5);z-index:1}
+.tab span{position:relative;z-index:1;display:block;padding-top:8px}
+.tab.blood{color:var(--blood2);background:#6a1a16}
+.tab[aria-selected="true"]{color:#16090a}
+.tab[aria-selected="true"]::before{background:linear-gradient(180deg,#e2bd72,#a8793a)}
+.tab.blood[aria-selected="true"]{color:#fff1e6}
+.tab.blood[aria-selected="true"]::before{background:linear-gradient(180deg,#a02a24,#5e1411)}
+
+.panel{position:relative;margin-top:16px;min-height:150px;padding:22px 22px 24px;border:2px solid #050202;
+  background-color:#0b0605;background-image:linear-gradient(180deg,rgba(14,8,6,.92),rgba(8,4,4,.96)),var(--wan);
+  box-shadow:inset 0 0 0 1px rgba(207,166,92,.25),inset 0 0 30px rgba(0,0,0,.8),0 12px 28px rgba(0,0,0,.6)}
+.panel::before{content:"";position:absolute;left:0;right:0;top:0;height:5px;background:var(--gold2)}
+.panel.blood::before{background:var(--blood2)}
+.pane{display:none;animation:rise .45s ease both}
+.pane.on{display:block}
+.pane h3{margin:0 0 8px;font-family:var(--display);font-weight:700;font-size:18px;letter-spacing:.25em}
+.pane[data-blood] h3{color:var(--blood2);text-shadow:0 0 10px rgba(200,68,59,.4)}
+.pane dl{margin:0}
+.pane dt{margin-top:8px;font-weight:700;letter-spacing:.12em;color:var(--gold)}
+.pane dd{margin:2px 0 0;font-size:14.5px;color:var(--text)}
+.pane p{margin:0;font-size:14.5px}
+.pane[data-id="idle"]{text-align:center;padding-top:26px;color:var(--faint);letter-spacing:.1em}
+
+/* 방(榜) */
+.notice{position:relative;display:inline-block;margin-top:34px;padding:14px 38px 12px;text-align:center;border:2px solid #050202;
+  background-color:#4a100d;background-image:var(--wood),linear-gradient(180deg,#5e1612,#3a0b09);
+  box-shadow:inset 0 0 0 1px var(--gold2),inset 0 0 0 4px #1a0605,0 14px 30px rgba(0,0,0,.75)}
+.notice b{display:block;font-family:var(--hanja);font-weight:900;font-size:clamp(17px,4.6vw,22px);letter-spacing:.3em;text-indent:.3em;color:#f0d9b5;text-shadow:-1px -1px 0 rgba(0,0,0,.8),0 0 12px rgba(0,0,0,.6)}
+.notice span{display:block;margin-top:2px;font-size:12.5px;letter-spacing:.08em;color:#d6a89a}
+.rumor{margin:16px 0 0;font-size:12px;letter-spacing:.1em;color:var(--faint)}
+
+/* ───── 바닥 ───── */
+.foot{position:relative;z-index:1;margin-top:56px;text-align:center}
+.foot .inner{padding:34px 16px 40px}
+.stamp{display:inline-block;padding:7px 10px;border:2px solid var(--blood);color:var(--blood2);font-size:12px;letter-spacing:.35em;text-indent:.35em;background:rgba(60,8,8,.3);transform:rotate(-4deg)}
+.end{margin-top:20px;color:var(--faint);font-size:11px;letter-spacing:.6em;text-indent:.6em}
+
+/* ───── 등장 연출 ───── */
+.js .reveal{opacity:0;transform:translateY(16px);transition:opacity .9s ease,transform .9s ease}
+.js .reveal.in{opacity:1;transform:none}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+  .js .reveal{opacity:1;transform:none}
+}
+@media(max-width:560px){
+  .sheet{padding:30px 12px 16px}
+  .frame{padding:7px}
+  .rafters{height:36px;background-size:36px 36px}
+  .hang{padding:40px 12px 22px}
+  .plaque{padding:12px 30px 10px}
+  .plaque-wide{padding:10px 32px 8px}
+  .leaf{padding:34px 18px 26px}
+  .leaf-hwi{gap:0 14px}
+  .eyes{gap:26px}
+  .gnb a{padding:2px 7px;font-size:13px}
+}
+</style>
+</head>
+<body>
+<div class="prog" id="prog"></div>
+
+<!-- ═════ 머리 : 처마 · 창방 · 현판 ═════ -->
+<header class="top" id="top">
+  <div class="rafters" aria-hidden="true"></div>
+  <div class="beam wood" aria-hidden="true">
+    <span class="rose l"></span><span class="rose r"></span>
+    <div class="dan"></div><div class="cho"></div><div class="dan"></div>
+  </div>
+  <div class="hang">
+    <div class="plaque wood">
+      <span class="pin l"></span><span class="pin r"></span>
+      <span class="hj engrave">輝 國 誌</span>
+      <span class="ko">휘국지</span>
+    </div>
+    <p class="warnline">外 人 不 可 見</p>
+  </div>
+  <nav class="gnb wood" aria-label="목차">
+    <div class="dan"></div>
+    <ul>
+      <li><a href="#story"><small>本編</small>본편</a></li>
+      <li><a href="#hwi"><small>輝國</small>휘국</a></li>
+      <li><a href="#spirit"><small>靈物</small>영물</a></li>
+      <li><a href="#palace"><small>禁苑</small>복호궁</a></li>
+    </ul>
+    <div class="dan"></div>
+  </nav>
+</header>
+
+<main class="sheet">
+
+  <!-- ① 표지: 클릭하면 사라지고 ② 웹툰이 나타난다 -->
+  <section id="story">
+    <div class="gate" id="gate" role="button" tabindex="0" aria-controls="webtoon" aria-expanded="false" aria-label="표지를 열어 본편 보기">
+      <div class="frame wood">
+        <div class="frame-in">
+          <i class="k tl"></i><i class="k tr"></i><i class="k bl"></i><i class="k br"></i>
+          <img src="https://i.postimg.cc/k5wS0nJF/1793151490278.png" alt="휘국지 표지" fetchpriority="high" decoding="async">
+        </div>
+      </div>
+      <div class="cta wood">
+        <span class="seal">開</span>
+        <span class="cta-t"><b>표지를 열다</b><small>탭하여 이야기를 펼쳐 보라</small></span>
+      </div>
+    </div>
+
+    <div class="webtoon" id="webtoon" hidden>
+      <div class="frame wood">
+        <div class="frame-in">
+          <i class="k tl"></i><i class="k tr"></i><i class="k bl"></i><i class="k br"></i>
+          <div class="wt-head">序</div>
+          <img src="https://gentle-glitch.github.io/BEOM/%EB%B2%94%ED%9C%98%20OZ.jpg" alt="휘국지 본편" decoding="async" fetchpriority="low">
+          <div class="wt-foot"><button class="btn" type="button" data-back>表紙 다시 보기</button></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cho divider reveal" aria-hidden="true"></div>
+
+  <!-- ③ 세 번째 이미지 -->
+  <figure class="poster reveal" style="margin-bottom:0">
+    <div class="frame wood">
+      <div class="frame-in">
+        <i class="k tl"></i><i class="k tr"></i><i class="k bl"></i><i class="k br"></i>
+        <img src="https://i.postimg.cc/mg9fpDS8/1793152175886.png" alt="휘국" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </figure>
+
+  <!-- 휘국 · 영물 -->
+  <div class="leaves">
+    <article class="leaf leaf-hwi wood reveal" id="hwi">
+      <i class="stud tl"></i><i class="stud tr"></i><i class="stud bl"></i><i class="stud br"></i>
+      <div class="juryeon" aria-hidden="true">輝國</div>
+      <div>
+        <div class="eyebrow">【 萬 壽 無 疆 】</div>
+        <h2 class="engrave">휘국 <small>輝國</small></h2>
+        <p class="sub">500년 전 ‘범’에 의해 건국된 나라</p>
+        <div class="cho" aria-hidden="true"></div>
+        <p>백성들은 왕실과 사대부가 순수한 예법으로 세상을 다스린다고 굳게 믿으며, 왕실을 천신의 후예로 받든다. 백성들은 영물의 존재를 알지 못한다. 성군인 왕의 후궁들이 늘 알 수 없는 이유로 사라진다는 소문에 안타까워할 뿐이다.</p>
+        <p>조정의 요직은 인간의 모습으로 변할 수 있는 고위 영물 가문이 대대로 독점한다.</p>
+      </div>
+      <p class="whisper">— 사라진 이의 이름은 궁의 문서 어디에도 남지 않는다 —</p>
+    </article>
+
+    <article class="leaf leaf-red reveal" id="spirit">
+      <i class="stud tl"></i><i class="stud tr"></i><i class="stud bl"></i><i class="stud br"></i>
+      <div class="mark" aria-hidden="true">靈</div>
+      <div class="eyes" aria-hidden="true"><span></span><span></span></div>
+      <h3>『 영물 <small>靈物</small> 』</h3>
+      <p>무수히 오랜 시간을 살아가는 신령스러운 동물을 칭한다.</p>
+      <p class="ital">이들이 어떻게 인간의 모습으로 둔갑해 살아가는지는 알려지지 않았다. 아는 자는 오래 살지 못하였기에.</p>
+    </article>
+  </div>
+
+  <div class="cho divider reveal" aria-hidden="true"></div>
+
+  <!-- ④ 복호궁 : 현판(이름표)을 누르면 설명이 나온다 -->
+  <section class="palace reveal" id="palace">
+    <div class="plaque plaque-wide wood">
+      <span class="pin l"></span><span class="pin r"></span>
+      <span class="hj">❖ 禁 苑 秘 宮 ❖</span>
+      <h2 class="engrave">복호궁</h2>
+    </div>
+    <p class="hint">그림 속 현판을 눌러 궁의 안쪽을 엿보라</p>
+
+    <div class="palace-grid">
+      <div class="frame wood">
+        <div class="frame-in">
+          <i class="k tl"></i><i class="k tr"></i><i class="k bl"></i><i class="k br"></i>
+          <div class="stage-in" id="stage">
+            <img src="https://i.postimg.cc/fRnYX2qR/20261028-102233-133.jpg" alt="복호궁" loading="lazy" decoding="async">
+            <!-- ★ 현판 위치: --x(왼쪽) --y(위) --w(너비) --h(높이), 이미지 기준 %.
+                 지금 값은 임시입니다. 실제 현판 위치에 맞춰 조정하세요. -->
+            <button class="spot" type="button" data-id="jeongjeon" style="--x:5%;--y:10%;--w:40%;--h:16%"><span class="sr">정전</span></button>
+            <button class="spot" type="button" data-id="pyeonjeon" style="--x:55%;--y:10%;--w:40%;--h:16%"><span class="sr">편전</span></button>
+            <button class="spot" type="button" data-id="naejeon" style="--x:5%;--y:40%;--w:40%;--h:16%"><span class="sr">내전</span></button>
+            <button class="spot blood" type="button" data-id="byeolgung" style="--x:55%;--y:40%;--w:40%;--h:16%"><span class="sr">별궁</span></button>
+            <button class="spot" type="button" data-id="naegaksa" style="--x:5%;--y:70%;--w:40%;--h:16%"><span class="sr">내각사</span></button>
+            <button class="spot blood" type="button" data-id="geumwon" style="--x:55%;--y:70%;--w:40%;--h:16%"><span class="sr">금원</span></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="info">
+        <div class="tabs" role="tablist" aria-label="궁궐 전각">
+          <button class="tab" role="tab" type="button" data-id="jeongjeon" aria-selected="false"><span>정전</span></button>
+          <button class="tab" role="tab" type="button" data-id="pyeonjeon" aria-selected="false"><span>편전</span></button>
+          <button class="tab" role="tab" type="button" data-id="naejeon" aria-selected="false"><span>내전</span></button>
+          <button class="tab blood" role="tab" type="button" data-id="byeolgung" aria-selected="false"><span>별궁</span></button>
+          <button class="tab" role="tab" type="button" data-id="naegaksa" aria-selected="false"><span>내각사</span></button>
+          <button class="tab blood" role="tab" type="button" data-id="geumwon" aria-selected="false"><span>금원</span></button>
+        </div>
+
+        <div class="panel" id="panel" aria-live="polite">
+          <div class="pane on" data-id="idle"><p>아직 아무 문도 열리지 않았다.</p></div>
+
+          <div class="pane" data-id="jeongjeon">
+            <h3 class="engrave">【 정전 】</h3>
+            <dl><dt>근정전</dt><dd>문무백관이 품계석에 맞춰 줄지어 서서 하례를 올리는 드넓고 정갈한 조정 뜰과 거대한 옥좌</dd></dl>
+          </div>
+
+          <div class="pane" data-id="pyeonjeon">
+            <h3 class="engrave">【 편전 】</h3>
+            <dl><dt>희정당</dt><dd>왕이 삼정승(암가·호가·사가) 및 육조 판서들과 정무를 논하는 공식 집무실</dd></dl>
+          </div>
+
+          <div class="pane" data-id="naejeon">
+            <h3 class="engrave">【 내전 】</h3>
+            <dl>
+              <dt>강녕전</dt><dd>왕의 침전 (늘 짙은 백단향과 은은한 향나무 연기 / 깊숙한 곳에 목욕 공간인 온실)</dd>
+              <dt>웅진전</dt><dd>중전의 거처</dd>
+            </dl>
+          </div>
+
+          <div class="pane" data-id="byeolgung" data-blood>
+            <h3>【 별궁 】</h3>
+            <dl><dt>은애전</dt><dd>후궁들의 거처</dd></dl>
+          </div>
+
+          <div class="pane" data-id="naegaksa">
+            <h3 class="engrave">【 내각사 】</h3>
+            <p>실무 관청들이 밀집</p>
+          </div>
+
+          <div class="pane" data-id="geumwon" data-blood>
+            <h3>【 금원 】</h3>
+            <p>일반 궁녀나 인간 신하들의 출입이 엄격히 금지된 대궐 뒤편의 거대한 숲</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="notice wood">
+      <b>子時 ~ 寅時 通行嚴禁</b>
+      <span>: 자시~인시에는 통행을 엄금한다.</span>
+    </div>
+    <p class="rumor">그 시각에 들린 소리는 들은 적이 없는 것으로 한다.</p>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="beam wood" aria-hidden="true"><div class="dan"></div><div class="cho"></div><div class="dan"></div></div>
+  <div class="inner">
+    <div class="stamp">輝 國 秘 錄</div>
+    <div class="end">❖ 終 ❖</div>
+  </div>
+  <div class="rafters" aria-hidden="true" style="transform:scaleY(-1)"></div>
+</footer>
+
+<script>
+(function(){
+  var d=document,body=d.body;
+  function $(s,r){return (r||d).querySelector(s)}
+  function $$(s,r){return Array.prototype.slice.call((r||d).querySelectorAll(s))}
+  var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  /* 등장 연출 */
+  var rev=$$('.reveal');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){
+      es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}});
+    },{threshold:.08,rootMargin:'0px 0px -4% 0px'});
+    rev.forEach(function(el){io.observe(el)});
+  }else{rev.forEach(function(el){el.classList.add('in')})}
+
+  /* 표지 → 본편 */
+  var gate=$('#gate'),wt=$('#webtoon'),slot=$('#story'),prog=$('#prog'),ticking=false;
+  function update(){
+    ticking=false;
+    if(wt.hidden){prog.style.width='0';return}
+    var r=wt.getBoundingClientRect(),h=r.height-window.innerHeight;
+    var p=h>0?Math.min(1,Math.max(0,-r.top/h)):0;
+    prog.style.width=(p*100)+'%';
+  }
+  function openCover(){
+    if(gate.hidden||gate.classList.contains('leaving'))return;
+    gate.classList.add('leaving');
+    gate.setAttribute('aria-expanded','true');
+    setTimeout(function(){
+      gate.hidden=true;
+      wt.hidden=false;
+      wt.classList.add('enter');
+      body.classList.add('reading');
+      slot.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+      update();
+    },reduce?0:520);
+  }
+  function closeCover(){
+    wt.hidden=true;wt.classList.remove('enter');
+    gate.hidden=false;gate.classList.remove('leaving');
+    gate.setAttribute('aria-expanded','false');
+    body.classList.remove('reading');
+    slot.scrollIntoView({behavior:reduce?'auto':'smooth',block:'start'});
+    update();
+  }
+  gate.addEventListener('click',openCover);
+  gate.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();openCover()}});
+  $$('[data-back]').forEach(function(b){b.addEventListener('click',closeCover)});
+  window.addEventListener('scroll',function(){if(!ticking){ticking=true;requestAnimationFrame(update)}},{passive:true});
+  window.addEventListener('resize',update);
+
+  /* 내비 현재 위치 */
+  var links=$$('.gnb a');
+  function setCurrent(id){
+    links.forEach(function(a){
+      if(a.getAttribute('href')==='#'+id)a.setAttribute('aria-current','true');else a.removeAttribute('aria-current');
+    });
+  }
+  if('IntersectionObserver' in window){
+    var nio=new IntersectionObserver(function(es){
+      es.forEach(function(e){if(e.isIntersecting)setCurrent(e.target.id)});
+    },{rootMargin:'-45% 0px -50% 0px'});
+    ['story','hwi','spirit','palace'].forEach(function(id){var el=d.getElementById(id);if(el)nio.observe(el)});
+  }
+
+  /* 복호궁 : 현판 / 문패 */
+  var spots=$$('.spot'),tabs=$$('.tab'),panes=$$('.pane'),panel=$('#panel');
+  function pick(id){
+    spots.forEach(function(s){s.classList.toggle('on',s.getAttribute('data-id')===id)});
+    tabs.forEach(function(t){t.setAttribute('aria-selected',t.getAttribute('data-id')===id?'true':'false')});
+    var cur=null;
+    panes.forEach(function(p){
+      var on=p.getAttribute('data-id')===id;
+      p.classList.toggle('on',on);
+      if(on)cur=p;
+    });
+    panel.classList.toggle('blood',!!cur&&cur.hasAttribute('data-blood'));
+  }
+  spots.concat(tabs).forEach(function(b){
+    b.addEventListener('click',function(){
+      var id=b.getAttribute('data-id');
+      var already=$('.pane.on',panel).getAttribute('data-id')===id;
+      pick(already?'idle':id);
+      if(!already){panel.scrollIntoView({behavior:reduce?'auto':'smooth',block:'nearest'})}
+    });
+  });
+})();
+</script>
+</body>
+</html>
